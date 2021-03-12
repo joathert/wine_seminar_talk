@@ -1,5 +1,5 @@
-# AthertonTeachingDemo2020
+# Wine seminars go flying intro talk
 
-Welcome to my docentship teaching demo, you can view the slideshow here:  
+https://joathert.github.io/wine_seminar_talk/
 
-https://joathert.github.io/AthertonTeachingDemo2020/ 
+
