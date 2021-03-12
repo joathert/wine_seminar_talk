@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+		  <div class="slides">
+
+		    <section>
+		      <h3> Wine seminars go flying: a mini symposium on drones in plant and forest sciences</h3>
+		      
+		     <img class="plain" src="./images/logo3.png" height=400 width=400/>
+		      
+		    </section>
+
+		    <section>
+                     <h4>  Today's program 14.00-16.00</h4>
+		     <ul>
+		        <li style="font-size:30px";> Jon Atherton<br/>Why drones are here to stay: the scale niche​  <br/></li>
+			<li style="font-size:30px"; > Vicent Agustí Ribas Costa<br/>UAS-based spherical (360) photography:
+			  description of the forest canopy from the inside out​ </li>
+			<li style="font-size:30px"; > Samuli Junttila<br/>Drones in teaching and tree health monitoring​ </li>
+			<li style="font-size:30px";> Pavel Alekseychik<br/>New approaches to UAS thermal imaging in boreal
+			  ecosystems​ </li>
+			<li style="font-size:30px";> Mikael Änäkkälä<br/>The effect of different conditions
+			  on multispectral images taken with a drone​ </li>
+			<li style="font-size:30px"; > Panel Q&A </li>
+		      </ul> 
+		   </section>
+
+		    
+		    <section>
+		      <h4> Why drones are here to stay: the scale niche​</h4>
+                      <h4>12.03.2021</h4>
+		      <br>jon.atherton@helsinki.fi
+		    </section>
+		    
+		   
+		   <section id="platform">
+		     <img class="plain" src="./images/scale_diagram.png" />
+		   </section> 
+
+		   <section id="scale">
+
+		     <p> "our ability to generate observations from remote
+		     sensing data at scales clearly aligned with
+		     biological processes has been limited. The
+		     problem is that biological processes like natural
+		     selection, metabolism, and resource allocation
+		     vary within and among individuals and change on
+		     scales of space and time" </p> 
+
+
+		     <p> Kellner et al., 2019, The case for remote sensing
+		     of individual plants, AmJ Botany </p> 
+		     <a href="https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1347">  https://doi.org/10.1002/ajb2.1347</a>
+
+		     
+		     
+		   </section>
+
+		   <section id="applications">
+		     <h4>Two example applications at this new scale</h4>
+		     <li> Leaf angles control remote sensing signals </li>
+		     <li> UAS-based spherical photography (Vicent's talk)  </li>
+		   </section>
+
+		   <section id="angles">
+		     <h4>Leaf angles from SfM (data collected by FGI)</h4>
+		     <img class="plain" src="./images/point_cloud.png" />
+		   </section>
+		   
+		   <section id="angles2">
+		     <h4>Xu et al.,  2020, IGARSS</h4>
+		     <a href="https://ieeexplore.ieee.org/document/9323498"> 10.1109/IGARSS39084.2020.9323498  </a>
+		     <img class="plain" src="./images/Potatozoom.png" />
+		   </section>
+
+		   <section id="angles3">
+		     <h4>Atherton et al.,  2020, EarthArxiv</h4>
+		     <a href="https://eartharxiv.org/repository/view/2/"> https://doi.org/10.31223/osf.io/eayph  </a>
+		     <img class="plain" src="./images/Fig4_ala_vs_ndvi_p3_simple_adjustcal_uncert.png"  height=450 width=650 />
+		   </section>
+		   
+		   <section id="Acknowledgements">
+		     <h4>Acknowledgements</h4>
+		     <p> 
+		       Anu Riikonen, Chao Zhang, Jaakko Oivukkamäki,
+		       Alasdair MacArthur, Eija Honkavaara,
+		       Teemu Hakala, Niko Koivumäki, Albert Porcar-Castell 
+		     </p> 
+		   </section>
+
+
+		   
+		
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
